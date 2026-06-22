@@ -1,0 +1,40 @@
+List of resources viewed and studied for the creation of this project:
+
+- https://www.hlevkin.com/hlevkin/12videoprocDoc/Handbook%20of%20Data%20Compression,%205th%20Edition.pdf — Handbook of Data Compression, 5th Ed. by David Salomon (1000+ pages covering every algorithm: RLE, Huffman, arithmetic coding, LZ77/78/ZW, Deflate, BWT, PPM, JPEG, MPEG, FLAC, and more).
+
+- https://www.hlevkin.com/hlevkin/04imageprocDoc/Gibson%20%20Sterling%20The%20Data%20Compression%20Book%202nd%20Ed%20-%20Mark%20Nelson.pdf — The Data Compression Book, 2nd Ed. by Mark Nelson — classic text with full C implementations of Huffman, adaptive Huffman, arithmetic coding, LZW, and statistical modeling.
+
+- https://www.mbit.edu.in/wp-content/uploads/2020/05/data_compression.pdf — Introduction to Data Compression, 3rd Ed. by Khalid Sayood — thorough coverage of both lossless and lossy compression with mathematical foundations.
+
+- https://q4.github.io/thesis-nsc.pdf — Lossless Data Compression (PhD thesis) — covers arithmetic coding, Bayesian adaptive compression, PPM, and combinatorial compression with complete theory.
+
+- https://sun.aei.polsl.pl/~sdeor/pub/deo03.pdf — PhD thesis on BWT-based compression — deep dive into Burrows-Wheeler transform compression algorithms.
+
+- https://export.arxiv.org/pdf/2202.06533v3.pdf — An Introduction to Neural Data Compression — modern survey covering learned compression with neural networks, entropy coding, and rate-distortion theory.
+
+- https://web.mit.edu/6.02/www/f2011/handouts/3.pdf — MIT 6.02 handout: Huffman and LZW compression — clear, concise explanation of both algorithms from first principles.
+
+- https://www.cs.princeton.edu/courses/archive/spr07/cos226/lectures/15Compression.pdf — Princeton lecture: Data Compression — run-length, Huffman, LZW, and entropy with worked examples.
+
+- https://www.cs.cmu.edu/~15750/notes/compression_guy_blelloch_book_chapter_draft.pdf — CMU notes: Introduction to Data Compression — covers probability coding, arithmetic coding, dictionary methods, and transforms.
+
+- https://www.ittc.ku.edu/~jsv/Papers/HoV94.arithmetic_codingOfficial.pdf — IEEE paper: Arithmetic coding for data compression — the definitive reference on arithmetic coding.
+
+- https://people.maths.ox.ac.uk/mavroyiakoum/winzipTalk.pdf — How to write an own WinZip — tutorial talk on building a compression program from the ground up.
+- https://ccsds.org/Pubs/120x0g4.pdf — CCSDS Lossless Data Compression standard with detailed algorithm tutorial and rationale.
+
+- https://www.mit.edu/~6.454/www_fall_2002/emin/yang_and_kieffer.pdf — Grammar-based lossless compression algorithms — a different approach using grammar transforms.
+
+- https://cloudstreet-dev.github.io/The-Big-Book-of-Compression-Algorithms/ — The Big Book of Compression Algorithms — comprehensive survey from Huffman to Zstandard, covering every major algorithm (lossless & lossy), with mechanics, tradeoffs, and ideal use contexts.
+
+- https://glinscott.github.io/lz/ — Building a Modern LZ Compressor — step-by-step walkthrough implementing LZ77 with entropy coding, hash chains, optimal parsing, beating gzip in <1000 lines of code.
+
+- https://codingchallenges.substack.com/p/coding-challenge-114-gzip — Build your own gzip — incremental challenge implementing DEFLATE (LZ77 + Huffman coding) from scratch using RFC 1951/1952.
+
+- https://thelinuxcode.com/huffman-coding-in-c-building-a-prefix-code-compressor-from-scratch/ — Huffman Coding in C: Building a Prefix-Code Compressor from Scratch — complete implementation tutorial with min-heap, tree building, bit packing, and round-trip verification.
+
+- https://medium.com/computatrum-veneficus/building-a-gzip-compression-library-in-zig-0-15-a-deep-dive-into-comprezz-66c1ee2b56e8 — Full DEFLATE implementation guide (LZ77 + dynamic Huffman) with architecture breakdown.
+
+- https://thecodeforge.io/dsa/lz77-lz78-compression/ — LZ77 and LZ78 — Dictionary Compression Algorithms — clear explanation with examples of sliding window and dictionary compression.
+
+- https://dl.acm.org/doi/fullHtml/10.1145/3342555 — ACM article: Huffman Coding — comprehensive tutorial by Alistair Moffat covering Huffman codes, arithmetic coding, and asymmetric numeral systems (ANS).
